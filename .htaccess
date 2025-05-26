@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule dev/openapi.xml$ dev/openapi.php [L]
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule (.*) process/short.php [L]
+</IfModule>
