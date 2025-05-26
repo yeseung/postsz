@@ -1,0 +1,105 @@
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	/*font-size: 12px;*/
+	color:#000000;
+}
+
+
+img{ border:0; }	
+a{ text-decoration:none; }
+a:hover{ text-decoration:underline; }
+strong{	font-weight:bold; }	
+
+select { width:14%; padding: .25em; }
+textarea { padding: .4em; }	
+/*label, input { display:block; }*/
+input.text { margin-bottom:0px; width:95%; padding: .4em; font-size:1.1em; }
+fieldset { padding:0; border:0; margin-top:15px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+
+
+p, ol, ul {
+	margin-top: 0px;
+	margin-bottom: 1.5em;
+	padding-top: 5px;
+	line-height: 1.9;
+	text-align: justify;
+}
+
+
+strong {
+	color: #505050;
+}
+
+a {
+	color:#999999;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+#tb{
+	font-size:1.2em;
+}
+#tb_11{
+	font-size:1.1em;
+}
+
+#delete{
+	font-size:10px;
+}
+#search_del{
+	font-size:10px;
+}
+#spam_del{
+	font-size:10px;
+}
+#ad_del{
+	font-size:10px;
+}
+#feedback{
+	font-size:10px;
+}
+#blacklist_on{
+	font-size:10px;
+}
+#blacklist_off{
+	font-size:10px;
+}
+#set{
+	font-size:10px;
+}
+#point_del{
+	font-size:10px;
+}
+
+
+
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 100px;
+border: 1px solid black;
+padding: 4px;
+background-color: #f7f7f7;
+visibility: hidden;
+z-index: 100;
+font-size:11px; color:#000000; text-decoration:none;letter-spacing: -0.02em ;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);*/
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+}

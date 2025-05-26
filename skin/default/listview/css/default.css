@@ -1,0 +1,44 @@
+
+
+body {
+	/*margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 62.5%;*/
+	/*font-size: 12px;*/
+	font-size:11px;
+	color:#000000;
+}
+
+
+img{ border:0; }	
+strong{	font-weight:bold; }	
+
+select { width:14%; padding: .25em; }
+textarea { padding: .4em; font-size:11px; }	
+input { padding: .4em; font-size:11px; }
+fieldset { padding:0; border:0; margin-top:15px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+
+
+p, ol, ul {
+	margin-top: 0px;
+	margin-bottom: 1.5em;
+	padding-top: 5px;
+	line-height: 1.9;
+	text-align: justify;
+}
+
+
+strong {
+	color: #505050;
+}
+
+a {
+	color:#333333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}

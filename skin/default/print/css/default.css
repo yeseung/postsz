@@ -1,0 +1,64 @@
+
+body {
+	font-size: 62.5%;
+	margin: 10px;
+	padding: 0px;
+}
+
+a { selector-dummy : expression(this.hideFocus=true); } 
+
+.png24 { 
+	tmp:expression(setPng24(this)); 
+} 
+
+#print #top {
+	margin:5px;
+	position: absolute;
+	float:right;
+	width:48px;
+	top: 10px;
+	right:0px;
+	padding-right:5px;
+	/*border: 1px solid #ff0;*/
+}
+
+#print #middle {
+	padding-top:5px;
+}
+#print #middle h1 {
+	
+	font-weight:bold;
+	font-size:2.0em;
+	margin: 0;
+	padding: 0;
+}
+#print #middle p {
+	word-break:break-all;
+	line-height:20px;
+	list-style:2px;
+	font-size:1.3em;
+	/*font-family: Arial, "바탕", "바탕체", "맑은고딕", "굴림", "돋움", Georgia, Times, serif;*/
+}
+#print #middle p#short_date {
+	margin:0; border:0;
+	color:#666;
+	font-size:1.1em;
+	font-style:italic;
+	font-family: Arial, "바탕", "바탕체", "맑은고딕", "굴림", "돋움", Georgia, Times, serif;
+}
+#print #middle p#short_date a {
+	line-height:20px;
+	font-size:1.1em;
+	color:#666;
+	text-decoration:none;
+	
+}
+#print #middle p#short_date a:hover {
+	/*font-weight:bold;*/
+	color:#000;
+	text-decoration:none;
+}
+
+#print #bottom {
+	
+}
